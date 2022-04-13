@@ -30,5 +30,56 @@ body {
 }
 
 .shcala {
-    width: 809px;
+    display: flex;
+    width: 60%;
 }
+
+.numb {
+    font-size: 96px;
+}
+
+.a {
+    color: black;
+    text-decoration: none;
+}
+
+.a1 {
+    color: #00FF00;
+}
+
+.a2 {
+    color: #6ae600;
+}
+
+.a3 {
+    color: #92dd00;
+}
+
+.a4 {
+    color: #bed200;
+}
+
+.a5 {
+    color: #E0CA00;
+}
+
+.a6 {
+    color: #E0CA00;
+}
+
+.a7 {
+    color: #E6A300  ;
+}
+
+.a8 {
+    color: #EC7C00;
+}
+
+.a9 {
+    color: #F44A00;
+}
+
+.a0 {
+    color: red;
+}
+

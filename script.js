@@ -7,3 +7,8 @@ function audio(play) {
         audio.pause();
     }
 }
+
+var voices = speechSynthesis.getVoices();
+var utterance = new SpeechSynthesisUtterance('Пацан, который говорил всё на JS');
+utterance.voice = voices[15];
+speechSynthesis.speak(utterance);
